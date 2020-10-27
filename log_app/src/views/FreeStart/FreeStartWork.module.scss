@@ -1,0 +1,13 @@
+.section-free-start-work {
+  position: relative;
+  width: 98%;
+  margin: 0 auto;
+  height: 100%;
+  border: 1px solid black;
+  &__return-button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+  }
+}

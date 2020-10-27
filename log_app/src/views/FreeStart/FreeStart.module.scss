@@ -1,18 +1,33 @@
-@import '../Root/common.scss';
+@import "../Root/common.scss";
 .section-free-start {
-    position: relative;
-    width: 95vw;
-    margin: 30px auto;
-    text-align: center;
+  position: relative;
+  width: 95vw;
+  margin: 130px auto;
+  text-align: center;
+
+  &__link {
+    padding: 10px 20px;
+    border: none;
+    background-color: $basic-color;
+    cursor: pointer;
+    transition: 0.3s;
+    color: $text-first-color;
+    font-size: $m-font-size;
+    text-decoration: none;
+    &:hover {
+      background-color: $third-color;
+      color: $text-second-color;
+    }
+  }
+  &__return-button {
+    position: absolute;
+    bottom: -200px;
+    right: 0;
+  }
+  @media (orientation: landscape) and (min-width: 1024px) {
     &__return-button {
-        position: absolute;
-        bottom: -50px;
-        right: 0;
+      bottom: -150px;
+      right: 50px;
     }
-    @media (orientation: landscape) and (min-width: 1024px) {
-        &__return-button {
-            bottom: -150px;
-            right: 50px;
-        }
-    }
+  }
 }

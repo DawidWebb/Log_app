@@ -1,15 +1,15 @@
-@import '../../views/Root/common.scss';
+@import "../../views/Root/common.scss";
 .returnButton {
-    width: 50px;
-    height: 30px;
-    border: none;
-    background-color: $second-color;
-    color: $text-first-color;
-    font-weight: 700;
-    cursor: pointer;
-    transition: 0.3s;
+  width: 70px;
+  height: 30px;
+  border: none;
+  background-color: $second-color;
+  color: $text-first-color;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.3s;
 }
 .returnButton:hover {
-    background-color: $third-color;
-    color: $text-second-color;
+  background-color: $third-color;
+  color: $text-second-color;
 }
